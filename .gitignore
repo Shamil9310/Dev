@@ -1,4 +1,6 @@
-# Игнорировать файл README.md.
+# Игнорировать файл README.md
 README.md
 # Игнорировать файл test.py
 test.py
+# Игнорировать файл doc
+*.doc
