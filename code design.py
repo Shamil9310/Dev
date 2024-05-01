@@ -14,13 +14,15 @@ def calculate_square_root(number: int) -> float:
 def calc(your_number: int) -> Optional[str]:
     if your_number <= 0:
         return
-    return 'Мы вычислили квадратный корень из введённого вами числа. \
-Это будет:', calculate_square_root(your_number)
+    return (f'Мы вычислили квадратный корень из введённого вами числа.'
+            f' Это будет: {number}')
 
 
 number_one = 10
 number_two = 5
+number = calculate_square_root(25.5)
+
 
 print('Сумма чисел:', add_numbers(number_one, number_two))
 
-print(calc(25.5))
+print(calc(number))
